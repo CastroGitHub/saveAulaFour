@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+    font-size: 0.5rem;
+}
+
+body
+{
+    background-color: aqua;
+    margin: 4px;
+    border: solid 2px black;
+
+}
+
+header 
+{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 4px;
+    border: dashed 2px black;
+    padding: 50px;    
+}
+
+nav 
+{
+    background-color: blue;
+    margin: 4px;
+    border: solid 2px black;
+    padding: 50px;
+}
+
+ul
+{
+    background-color: blueviolet;
+    margin: 4px;
+    border: solid 2px black;
+    padding: 50px;
+}
+
+li
+{
+
+    background-color: rgba(128, 255, 0, 0.5);
+    margin: 4px;
+    border: solid 2px rgba(83, 64, 64,);
+    padding: 50px;
+    list-style: none;
+}
+
+main
+{
+    background-color: crimson;
+    margin: 4px;
+    border: solid 2px black;
+    padding: 50px;
+    width: 70%;
+}
+
+section
+{
+    background-color: coral;
+    margin: 4px;
+    border: solid 2px black;
+    padding: 10%;
+}
+
+aside
+{
+    background-color: darkblue;
+    margin: 4px;
+    border: solid 2px black;
+    padding: 50px;
+}
+
+footer
+{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    margin: 0px;
+    border: solid 2px black;
+    padding: 30px;
+    width: 100%;
+    font-size: 50px;
+}
+
+p
+{
+    font-size: 2rem;    
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 40px;
+}
+article
+{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: auto;
+}
